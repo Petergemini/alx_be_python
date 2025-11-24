@@ -13,5 +13,6 @@ class BankAccount:
         return False
 
     def display_balance(self):
-        # Always show 2 decimal places for ALX dry-run
+        # Always show 2 decimal places
         print(f"Current Balance: ${self.__account_balance:.2f}")
+
